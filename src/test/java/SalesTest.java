@@ -1,3 +1,5 @@
+import com.vivien.Cart;
+import com.vivien.CartItem;
 import com.vivien.Good;
 import org.junit.Test;
 
@@ -14,13 +16,14 @@ public class SalesTest {
         assertTrue(salesInfor.contains(good.getUnit()));
         assertTrue(salesInfor.contains(good.getName()));
         assertTrue(salesInfor.contains(good.getSubCategory()));
-
     }
 
     @Test
     public void should_return_true_when_input_ITEM000001_3() throws Exception {
-//        Good
-        Sales sales = new Sales();
+        Good good = defaultGoods();
+        Sales sales = new Sales(good);
+        String prices = sales.getGoodFromBarcode("'ITEM000001', 'ITEM000001', 'ITEM000001'");
+        assertTrue(prices.contains("小计："+6+""));
     }
 
     Good defaultGoods(){

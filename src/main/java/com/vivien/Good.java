@@ -9,14 +9,32 @@ public class Good {
     String subCategory;
     float price;
 
+
+    boolean isSale;
+
     @Override
     public String toString() {
         return "barcode:"+ barcode
-                +"name"+ name
-                +"unit"+ unit
-                +"category"+category
-                +"subCategory"+subCategory
-                +"price"+price;
+                +"name:"+ name
+                +"unit:"+ unit
+                +"category:"+category
+                +"subCategory:"+subCategory
+                +"price:"+price;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null && obj instanceof Good) {
+            if (((Good) obj).barcode.equals(this.barcode)
+                    && ((Good) obj).name.equals(this.name)
+                    && ((Good) obj).category.equals(this.category)
+                    && ((Good) obj).price == this.price
+                    && ((Good) obj).unit.equals(this.unit)
+                    && ((Good) obj).subCategory.equals(this.subCategory)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public String getBarcode() {
@@ -65,5 +83,13 @@ public class Good {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public boolean isSale() {
+        return isSale;
+    }
+
+    public void setSale(boolean sale) {
+        isSale = sale;
     }
 }
