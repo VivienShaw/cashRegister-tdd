@@ -1,3 +1,4 @@
+package com.vivien;
 
 import com.vivien.Cart;
 import com.vivien.CartItem;

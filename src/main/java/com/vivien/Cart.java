@@ -38,6 +38,7 @@ public class Cart {
             cartInfo.append(item.getGood().toString());
             cartInfo.append("商品个数："+item.getGoodsNum());
             cartInfo.append("小计："+ item.getTotalPrice());
+            cartInfo.append("\n");
             TotalPrice += item.getTotalPrice();
         }
         cartInfo.append("总计："+TotalPrice);

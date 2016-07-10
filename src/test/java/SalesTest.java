@@ -1,6 +1,5 @@
-import com.vivien.Cart;
-import com.vivien.CartItem;
 import com.vivien.Good;
+import com.vivien.Sales;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

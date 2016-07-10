@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49d5222c-5ca1-4579-9869-3e07d5bf9e54" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vivien/Cart.java" afterPath="$PROJECT_DIR$/src/main/java/com/vivien/Cart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vivien/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/vivien/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SalesTest.java" afterPath="$PROJECT_DIR$/src/test/java/SalesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/tasks" afterPath="$PROJECT_DIR$/src/test/tasks" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Sales.java" afterPath="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" />
     </list>
     <ignored path="discount.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,18 +48,28 @@
       <file leaf-file-name="tasks" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/tasks">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="286">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalesTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SalesTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+              <caret line="58" column="118" selection-start-line="50" selection-start-column="8" selection-end-line="58" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,14 +78,14 @@
         </entry>
       </file>
       <file leaf-file-name="Sales.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Sales.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Sales.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="110">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
-                <element signature="e#1669#1670#0" expanded="true" />
+                <element signature="e#1643#1644#0" expanded="true" />
+                <element signature="e#1689#1690#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,11 +94,12 @@
       <file leaf-file-name="Cart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="220">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#187#197#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
               </folding>
             </state>
@@ -94,7 +109,7 @@
       <file leaf-file-name="CartItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/CartItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
+            <state relative-caret-position="104">
               <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding>
                 <element signature="e#171#172#0" expanded="true" />
@@ -408,10 +423,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/Good.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/CartItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vivien/Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sales.java" />
-        <option value="$PROJECT_DIR$/src/test/tasks" />
         <option value="$PROJECT_DIR$/src/test/java/SalesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/tasks" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vivien/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vivien/Cart.java" />
       </list>
     </option>
   </component>
@@ -553,28 +570,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vivien" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -603,7 +598,7 @@
       <recent name="com.vivien" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SalesTest.should_return_true_when_input_ITEM000001_3_and_ITEM000003_3">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="SalesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="discount_test" />
@@ -613,27 +608,6 @@
       <option name="MAIN_CLASS_NAME" value="SalesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SalesTest.should_return_true_when_input_ITEM000001_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="discount_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SalesTest" />
-      <option name="METHOD_NAME" value="should_return_true_when_input_ITEM000001_3" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -707,6 +681,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vivien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vivien.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="discount_main" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -945,18 +939,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SalesTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_3" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000003_3" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_2_and_ITEM000003" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_3_and_ITEM000003_3" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000003_3" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_2_and_ITEM000003" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_3_and_ITEM000003_3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_3_and_ITEM000003_3" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SalesTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_2_and_ITEM000003" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000003_3" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_3" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_3_and_ITEM000003_3" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SalesTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000001_2_and_ITEM000003" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_true_when_input_ITEM000003_3" />
       </list>
     </recent_temporary>
   </component>
@@ -992,9 +986,6 @@
     <history-entry file="SalesTest - 2016.07.10 at 22h 26m 06s.xml">
       <configuration name="SalesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesTest_should_return_true_when_input_ITEM000001_2_and_ITEM000003 - 2016.07.10 at 22h 11m 42s.xml">
-      <configuration name="SalesTest.should_return_true_when_input_ITEM000001_2_and_ITEM000003" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SalesTest_should_return_true_when_input_ITEM000001_2_and_ITEM000003 - 2016.07.10 at 22h 15m 50s.xml">
       <configuration name="SalesTest.should_return_true_when_input_ITEM000001_2_and_ITEM000003" configurationId="JUnit" />
     </history-entry>
@@ -1006,6 +997,9 @@
     </history-entry>
     <history-entry file="SalesTest_should_return_true_when_input_ITEM000001_2_and_ITEM000003 - 2016.07.10 at 22h 25m 24s.xml">
       <configuration name="SalesTest.should_return_true_when_input_ITEM000001_2_and_ITEM000003" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesTest_should_return_true_when_input_ITEM000001_3_and_ITEM000003_3 - 2016.07.10 at 22h 32m 38s.xml">
+      <configuration name="SalesTest.should_return_true_when_input_ITEM000001_3_and_ITEM000003_3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1078,14 +1072,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sales.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Sales.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1097,6 +1091,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#187#197#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
           </folding>
         </state>
@@ -1173,9 +1168,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/tasks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SalesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="58" column="118" selection-start-line="50" selection-start-column="8" selection-end-line="58" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/CartItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="104">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding>
             <element signature="e#171#172#0" expanded="true" />
@@ -1194,43 +1207,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="220">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#187#197#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sales.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Sales.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="110">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/tasks">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SalesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
