@@ -21,7 +21,7 @@ public class Sales {
         for (int i=0;i<barcode.length;i++) {
             CartItem currentItem = new CartItem();
             for (Good good : goods) {
-                if (good.getBarcode().equals(barcode[i])) {
+                if (good.getBarcode().equals(barcode[i].trim())) {
                     if (cartInfo.isContainsGood(good)) {
                         goodsNum = cartInfo.getItem(good).getGoodsNum();
                         cartInfo.getItem(good).setGoodsNum(++goodsNum);
@@ -33,6 +33,11 @@ public class Sales {
                     }
                     cartInfo.addItem(currentItem);
                 }
+            }
+        }//cartInfo complete!
+        for (CartItem item : cartInfo.items) {
+            if (item.getGood().isSale() && (item.getGoodsNum()) >= 3) {
+                item.setTotalPrice(item.getGood().getPrice() * (item.getGoodsNum() - item.getGoodsNum()/3));
             }
         }
         return cartInfo.toString();

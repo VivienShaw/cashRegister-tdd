@@ -8,9 +8,7 @@ public class Good {
     String category;
     String subCategory;
     float price;
-
-
-    boolean isSale;
+    boolean isSale = false;
 
     @Override
     public String toString() {

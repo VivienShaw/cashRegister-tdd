@@ -6,7 +6,7 @@ import java.util.concurrent.SynchronousQueue;
 
 public class Cart {
 
-    List<CartItem> items = new ArrayList<CartItem>();
+    public List<CartItem> items = new ArrayList<CartItem>();
 
     public void addItem(CartItem item) {
         items.add(item);
@@ -34,8 +34,9 @@ public class Cart {
     public String toString() {
         StringBuilder cartInfo = new StringBuilder();
         for (CartItem item : items) {
-            cartInfo.append(item.getGood().toString());
-            cartInfo.append("number:"+item.getGoodsNum());
+//            cartInfo.append(item.getGood().toString());
+            cartInfo.append("商品个数："+item.getGoodsNum());
+            cartInfo.append("小计："+ item.getTotalPrice());
         }
         return cartInfo.toString();
     }
