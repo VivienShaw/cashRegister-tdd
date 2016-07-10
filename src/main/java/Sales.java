@@ -39,6 +39,7 @@ public class Sales {
             if (item.getGood().isSale() && (item.getGoodsNum()) >= 3) {
                 item.setTotalPrice(item.getGood().getPrice() * (item.getGoodsNum() - item.getGoodsNum()/3));
             }
+            item.setTotalPrice(item.getGood().getPrice() * item.getGoodsNum());
         }
         return cartInfo.toString();
     }

@@ -34,7 +34,7 @@ public class Cart {
     public String toString() {
         StringBuilder cartInfo = new StringBuilder();
         for (CartItem item : items) {
-//            cartInfo.append(item.getGood().toString());
+            cartInfo.append(item.getGood().toString());
             cartInfo.append("商品个数："+item.getGoodsNum());
             cartInfo.append("小计："+ item.getTotalPrice());
         }
