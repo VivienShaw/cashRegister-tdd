@@ -21,7 +21,7 @@ public class SalesTest {
     @Test
     public void should_return_true_when_input_ITEM000001_3() throws Exception {
         Good good = defaultGoods();
-        Sales sales = new Sales(good);
+        Sales sales = new Sales();
         String prices = sales.getGoodFromBarcode("ITEM000001,ITEM000001,ITEM000001");
         assertTrue(prices.contains("小计："+6.00));
     }
@@ -42,10 +42,23 @@ public class SalesTest {
         good1.setBarcode("ITEM000003");
         good1.setName("雪碧");
         Good good2 = defaultGoods();
-        Good good3 = defaultGoods();
         Sales sales = new Sales(good1,good2);
         String prices = sales.getGoodFromBarcode("ITEM000003,ITEM000001,ITEM000001");
         assertTrue(prices.contains("总计："+9.00));
+    }
+
+    @Test
+    public void should_return_true_when_input_ITEM000001_3_and_ITEM000003_3() throws Exception {
+        Good good1 = defaultGoods();
+        good1.setBarcode("ITEM000003");
+        good1.setName("雪碧");
+        Good good2 = defaultGoods();
+        Good good3 = defaultGoods();
+        good3.setBarcode("ITEM000002");
+        good3.setName("百事可乐");
+        Sales sales = new Sales(good1,good2,good3);
+        String prices = sales.getGoodFromBarcode("ITEM000001,ITEM000001,ITEM000001,ITEM000003,ITEM000003,ITEM000003");
+        assertTrue(prices.contains("总计："+15.00));
     }
 
     Good defaultGoods(){
