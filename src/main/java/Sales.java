@@ -25,6 +25,7 @@ public class Sales {
                     if (cartInfo.isContainsGood(good)) {
                         goodsNum = cartInfo.getItem(good).getGoodsNum();
                         cartInfo.getItem(good).setGoodsNum(++goodsNum);
+                        continue;
                     }
                     currentItem.setGood(good);
                     currentItem.setGoodsNum(1);
@@ -38,6 +39,7 @@ public class Sales {
         for (CartItem item : cartInfo.items) {
             if (item.getGood().isSale() && (item.getGoodsNum()) >= 3) {
                 item.setTotalPrice(item.getGood().getPrice() * (item.getGoodsNum() - item.getGoodsNum()/3));
+                continue;
             }
             item.setTotalPrice(item.getGood().getPrice() * item.getGoodsNum());
         }

@@ -8,6 +8,7 @@ public class Cart {
 
     public List<CartItem> items = new ArrayList<CartItem>();
 
+    float TotalPrice = 0;
     public void addItem(CartItem item) {
         items.add(item);
     }
@@ -37,7 +38,9 @@ public class Cart {
             cartInfo.append(item.getGood().toString());
             cartInfo.append("商品个数："+item.getGoodsNum());
             cartInfo.append("小计："+ item.getTotalPrice());
+            TotalPrice += item.getTotalPrice();
         }
+        cartInfo.append("总计："+TotalPrice);
         return cartInfo.toString();
     }
 }
