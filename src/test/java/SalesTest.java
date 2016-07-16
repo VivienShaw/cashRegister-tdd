@@ -20,7 +20,7 @@ public class SalesTest {
     @Test
     public void should_return_true_when_input_ITEM000001_3() throws Exception {
         Good good = defaultGoods();
-        Sales sales = new Sales();
+        Sales sales = new Sales(good);
         String prices = sales.getGoodFromBarcode("ITEM000001,ITEM000001,ITEM000001");
         assertTrue(prices.contains("小计："+6.00));
     }
